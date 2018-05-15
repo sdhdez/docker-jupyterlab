@@ -11,7 +11,7 @@ EXPOSE 8888
 # User add
 ARG UID=1000
 ARG GID=1000
-ARG user=someuser
+ARG user=jupyterlab
 RUN useradd -u $UID -U -ms /bin/bash $user
 
 # Environment
